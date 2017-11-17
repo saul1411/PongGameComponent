@@ -10,7 +10,7 @@ public class PaddleControl : MonoBehaviour {
 
 	void Update () {
 		float yPos = gameObject.transform.position.y + (Input.GetAxis("Vertical")*paddleSpeed);
-		playerPos = new Vector2 (-1600, Mathf.Clamp(yPos, -30, 380));
+		playerPos = new Vector2 (-1600, Mathf.Clamp(yPos, -20, 400));
 		gameObject.transform.position = playerPos;
 
 	}
