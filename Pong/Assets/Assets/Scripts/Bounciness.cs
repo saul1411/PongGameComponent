@@ -12,6 +12,8 @@ public class Bounciness : MonoBehaviour {
 	bool isPlay;
 	int randInt;
 	public Text text;
+	int healthCounter = 0;
+	int destroy = 4;
 
 	void Awake () {
 		rb2d = gameObject.GetComponent<Rigidbody2D> ();
@@ -47,8 +49,16 @@ public class Bounciness : MonoBehaviour {
 	}
 	void OnCollisionEnter2D(Collision2D col){
 		if (col.gameObject.tag == "Brick") {
-			Debug.Log ("Enter Called");
+			Debug.Log ("Brick Hit");
 			Destroy (col.gameObject);
+		}
+		if (col.gameObject.tag == "HealthBar") {
+			healthCounter += 1;
+			Debug.Log ("Health Bar Hit");
+			if (healthCounter >= destroy) {
+				Debug.Log ("Health Bar Destroyed");	
+				Destroy (col.gameObject);
+			}
 		}
 	}
 }

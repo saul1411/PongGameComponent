@@ -15,7 +15,7 @@ public class PlayerBackupPaddles2 : MonoBehaviour {
 
 
 	void Update () {
-		if (ballobj.transform.position.y < 10 && ballobj.transform.position.x < 20 && ballobj.transform.position.x > -1600) {
+		if (ballobj.transform.position.y < 0 && ballobj.transform.position.x < 20 && ballobj.transform.position.x > -1600) {
 				targetPos = Vector2.Lerp (gameObject.transform.position, ballobj.transform.position, Time.deltaTime * speed);
 				gameObject.transform.position = new Vector2 (-1600, targetPos.y);
 			}
