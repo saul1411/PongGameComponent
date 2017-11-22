@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PaddleControl : MonoBehaviour {
 
-	public float paddleSpeed = 1;
+	public float paddleSpeed = 2;
 
 	public Vector2 playerPos;
 

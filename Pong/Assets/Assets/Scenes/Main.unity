@@ -1171,6 +1171,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518cfdc433a1d4d76a733ed4281b30ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sr1: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  sr2: {fileID: 21300000, guid: 3ae512c8dd69f4b2aaf024f07ec229db, type: 3}
+  sr3: {fileID: 21300000, guid: 1b4d8c6119c514542811a60fd0b5b799, type: 3}
+  sr4: {fileID: 21300000, guid: 430839b9f9b4149d7a876ce094563c05, type: 3}
+  sr5: {fileID: 21300000, guid: 5bf789051db66412783773800c111df5, type: 3}
 --- !u!61 &287148341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1228,7 +1233,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1236,7 +1241,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &287148343
 Transform:
@@ -2426,7 +2431,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2434,7 +2439,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &481616168
 Transform:
@@ -2485,6 +2490,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518cfdc433a1d4d76a733ed4281b30ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sr1: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  sr2: {fileID: 21300000, guid: 3ae512c8dd69f4b2aaf024f07ec229db, type: 3}
+  sr3: {fileID: 21300000, guid: 1b4d8c6119c514542811a60fd0b5b799, type: 3}
+  sr4: {fileID: 21300000, guid: 430839b9f9b4149d7a876ce094563c05, type: 3}
+  sr5: {fileID: 21300000, guid: 5bf789051db66412783773800c111df5, type: 3}
 --- !u!1 &518079884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,7 +2512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &518079885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2588,7 +2598,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 518079884}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: -0.0002058174}
-  m_LocalPosition: {x: -2005.9994, y: 742.3901, z: 0}
+  m_LocalPosition: {x: -2078, y: 742, z: 0}
   m_LocalScale: {x: 0.3000001, y: 3.612665, z: 1}
   m_Children: []
   m_Father: {fileID: 763812835}
@@ -2732,6 +2742,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518cfdc433a1d4d76a733ed4281b30ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sr1: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  sr2: {fileID: 21300000, guid: 3ae512c8dd69f4b2aaf024f07ec229db, type: 3}
+  sr3: {fileID: 21300000, guid: 1b4d8c6119c514542811a60fd0b5b799, type: 3}
+  sr4: {fileID: 21300000, guid: 430839b9f9b4149d7a876ce094563c05, type: 3}
+  sr5: {fileID: 21300000, guid: 5bf789051db66412783773800c111df5, type: 3}
 --- !u!61 &551981196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2789,7 +2804,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2797,7 +2812,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &551981198
 Transform:
@@ -3255,6 +3270,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518cfdc433a1d4d76a733ed4281b30ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sr1: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  sr2: {fileID: 21300000, guid: 3ae512c8dd69f4b2aaf024f07ec229db, type: 3}
+  sr3: {fileID: 21300000, guid: 1b4d8c6119c514542811a60fd0b5b799, type: 3}
+  sr4: {fileID: 21300000, guid: 430839b9f9b4149d7a876ce094563c05, type: 3}
+  sr5: {fileID: 21300000, guid: 5bf789051db66412783773800c111df5, type: 3}
 --- !u!61 &870687322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3312,7 +3332,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3320,7 +3340,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &870687324
 Transform:
@@ -3870,7 +3890,7 @@ Transform:
   m_GameObject: {fileID: 969400514}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -15.999334, y: -677.6099, z: 0}
-  m_LocalScale: {x: 0.3000001, y: 3.6126654, z: 1}
+  m_LocalScale: {x: 0.3000001, y: 3.793299, z: 1}
   m_Children: []
   m_Father: {fileID: 763812835}
   m_RootOrder: 1
@@ -4991,7 +5011,7 @@ Transform:
   m_GameObject: {fileID: 1235019994}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.0006656647, y: 1201.3901, z: 0}
-  m_LocalScale: {x: 0.3000001, y: 3.6126654, z: 1}
+  m_LocalScale: {x: 0.27374431, y: 3.7932985, z: 1}
   m_Children: []
   m_Father: {fileID: 763812835}
   m_RootOrder: 0
@@ -5122,7 +5142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1350694681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5208,7 +5228,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1350694680}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: -0.0002058174}
-  m_LocalPosition: {x: 1974.0006, y: 742.3901, z: 0}
+  m_LocalPosition: {x: 2082, y: 742, z: 0}
   m_LocalScale: {x: 0.3000001, y: 3.612665, z: 1}
   m_Children: []
   m_Father: {fileID: 763812835}
@@ -6038,7 +6058,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6046,7 +6066,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &1544069398
 Transform:
@@ -6097,6 +6117,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518cfdc433a1d4d76a733ed4281b30ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sr1: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  sr2: {fileID: 21300000, guid: 3ae512c8dd69f4b2aaf024f07ec229db, type: 3}
+  sr3: {fileID: 21300000, guid: 1b4d8c6119c514542811a60fd0b5b799, type: 3}
+  sr4: {fileID: 21300000, guid: 430839b9f9b4149d7a876ce094563c05, type: 3}
+  sr5: {fileID: 21300000, guid: 5bf789051db66412783773800c111df5, type: 3}
 --- !u!1 &1555055883
 GameObject:
   m_ObjectHideFlags: 0
@@ -6791,7 +6816,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6799,7 +6824,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &1682702530
 Transform:
@@ -6850,6 +6875,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 518cfdc433a1d4d76a733ed4281b30ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sr1: {fileID: 21300000, guid: 8357dcf6f85ab43338eef608431eb913, type: 3}
+  sr2: {fileID: 21300000, guid: 3ae512c8dd69f4b2aaf024f07ec229db, type: 3}
+  sr3: {fileID: 21300000, guid: 1b4d8c6119c514542811a60fd0b5b799, type: 3}
+  sr4: {fileID: 21300000, guid: 430839b9f9b4149d7a876ce094563c05, type: 3}
+  sr5: {fileID: 21300000, guid: 5bf789051db66412783773800c111df5, type: 3}
 --- !u!1 &1712552116
 GameObject:
   m_ObjectHideFlags: 0

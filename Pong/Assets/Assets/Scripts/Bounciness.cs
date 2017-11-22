@@ -5,16 +5,15 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Bounciness : MonoBehaviour {
-
+	// Ball and gameplay variables
 	public float ballVelocity = 2700;
-
 	Rigidbody2D rb2d;
 	bool isPlay;
 	int randInt;
+	// Text renderer variables
 	public Text text;
-	int healthCounter = 0;
-	int destroy = 4;
 
+	// Function called at the very start of the game.
 	void Awake () {
 		rb2d = gameObject.GetComponent<Rigidbody2D> ();
 		randInt = Random.Range (1, 11);
@@ -22,8 +21,11 @@ public class Bounciness : MonoBehaviour {
 	}
 
 	void Start(){
+		
 	}
 
+	/* Function called at every change of the frame. Updates the position of the ball, 
+	 * the position of the paddle. Starts the game at the click of the mouse. */
 	void Update () {
 		if(rb2d.transform.position.x < -2000 || rb2d.transform.position.x > 2000){
 			isPlay = false;
@@ -47,18 +49,11 @@ public class Bounciness : MonoBehaviour {
 
 		}
 	}
+	// Function called for every collision between 2D objects.
 	void OnCollisionEnter2D(Collision2D col){
-		if (col.gameObject.tag == "Brick") {
+		if (col.gameObject.tag == "Brick") { // Destroy bricks on contact.
 			Debug.Log ("Brick Hit");
 			Destroy (col.gameObject);
-		}
-		if (col.gameObject.tag == "HealthBar") {
-			healthCounter += 1;
-			Debug.Log ("Health Bar Hit");
-			if (healthCounter >= destroy) {
-				Debug.Log ("Health Bar Destroyed");	
-				Destroy (col.gameObject);
-			}
 		}
 	}
 }
