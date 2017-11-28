@@ -40,11 +40,14 @@ public class Bounciness : MonoBehaviour {
 			isPlay = true;
 			rb2d.transform.position = new Vector2 (0, 0);
 			rb2d.isKinematic = false;
-			if(randInt <= 5){
+			if(randInt <= 3){
 				rb2d.AddForce(new Vector2(ballVelocity, ballVelocity));
 			}
-			if(randInt > 5){
+			if(randInt > 3 && randInt <= 6){
 				rb2d.AddForce(new Vector2(-ballVelocity, -ballVelocity));
+			}
+			if (randInt > 6) {
+				rb2d.AddForce (new Vector2 (ballVelocity, -ballVelocity));
 			}
 
 		}
