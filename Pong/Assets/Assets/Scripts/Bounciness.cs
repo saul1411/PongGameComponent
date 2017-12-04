@@ -51,6 +51,9 @@ public class Bounciness : MonoBehaviour {
 			}
 
 		}
+
+ 
+
 	}
 	// Function called for every collision between 2D objects.
 	void OnCollisionEnter2D(Collision2D col){

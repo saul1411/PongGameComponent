@@ -26,6 +26,7 @@ public class HealthBar : MonoBehaviour {
 		if (gameObject != null) {
 			Destroy (gameObject);
 		}
+
 	}
 
 	void OnCollisionEnter2D(Collision2D col){
