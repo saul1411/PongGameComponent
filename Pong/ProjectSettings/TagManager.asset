@@ -8,6 +8,7 @@ TagManager:
   - Block
   - Brick
   - HealthBar
+  - Speed
   layers:
   - Default
   - TransparentFX
