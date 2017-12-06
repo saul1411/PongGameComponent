@@ -23,35 +23,7 @@ public class Enemy : MonoBehaviour {
 			gameObject.transform.position = new Vector2 (1600, targetPos.y);
 		}
 
-		if (Input.GetKeyDown (KeyCode.A)) // freeze paddle
-		{
-			speed = 0;
-			Debug.Log ("Enemy paddle frozen");
-			StartCoroutine(ResetEnemyPaddleSpeed());
-		}
 
-		if (Input.GetKeyDown (KeyCode.K)) {
-			GetComponent<SpriteRenderer> ().enabled = false; 
-			GetComponent<Collider2D>().enabled = false;
-			Debug.Log ("Enemy paddles removed");
-			StartCoroutine (ReturnEnemyPaddles ());
-		}
 	}
 
-	IEnumerator ResetEnemyPaddleSpeed()
-	{
-		// wait some seconds
-		yield return new WaitForSeconds(boostDuration);
-		// return to normal speed
-		speed = 6;
-		Debug.Log("Enemy paddle unfrozen"); 
-	}
-
-	IEnumerator ReturnEnemyPaddles()
-	{
-		yield return new WaitForSeconds(boostDuration);
-		GetComponent<SpriteRenderer> ().enabled = true; 
-		GetComponent<Collider2D>().enabled = true;
-		Debug.Log ("Enemy paddles returned.");
-	}
 }
