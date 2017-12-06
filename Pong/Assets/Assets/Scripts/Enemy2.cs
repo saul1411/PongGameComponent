@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -50,3 +51,6 @@ public class Enemy2 : MonoBehaviour {
 		Debug.Log ("Enemy paddles returned.");
 	}
 }
+=======
+﻿using System.Collections; using System.Collections.Generic; using UnityEngine;  public class Enemy2 : MonoBehaviour {  	public float speed = 6; 	public float boostDuration = 10;  	Vector2 targetPos; 	GameObject ballobj;  	void Start () { 		ballobj = GameObject.FindGameObjectWithTag ("Ball"); 	}   	void Update () { 		if (ballobj.transform.position.y > 570 && ballobj.transform.position.x < 1600 && ballobj.transform.position.x > 0) { 			targetPos = Vector2.Lerp (gameObject.transform.position, ballobj.transform.position, Time.deltaTime * speed); 			gameObject.transform.position = new Vector2 (1600, targetPos.y); 		} 		if (Input.GetKeyDown (KeyCode.A)) // freeze paddle 		{ 			speed = 0; 			StartCoroutine(ResetEnemyPaddleSpeed()); 		}  		if (Input.GetKeyDown (KeyCode.K)) { 			GetComponent<SpriteRenderer> ().enabled = false;  			GetComponent<Collider2D>().enabled = false; 			StartCoroutine (ReturnEnemyPaddles ()); 		} 	}  	IEnumerator ResetEnemyPaddleSpeed() 	{ 		// wait some seconds 		yield return new WaitForSeconds(boostDuration); 		// return to normal speed 		speed = 6; 		Debug.Log("Enemy paddle unfrozen");  	}  	IEnumerator ReturnEnemyPaddles() 	{ 		yield return new WaitForSeconds(boostDuration); 		GetComponent<SpriteRenderer> ().enabled = true;  		GetComponent<Collider2D>().enabled = true; 		Debug.Log ("Enemy paddles returned."); 	} }
+>>>>>>> 1b52f0d85616a7de8125d4b5aaaa3a3f6771a28b
