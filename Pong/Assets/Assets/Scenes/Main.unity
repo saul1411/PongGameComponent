@@ -1696,7 +1696,7 @@ Transform:
   m_LocalScale: {x: 3, y: 4.08281, z: 1}
   m_Children: []
   m_Father: {fileID: 696485118}
-  m_RootOrder: 12
+  m_RootOrder: 12x
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &338135401
 MonoBehaviour:

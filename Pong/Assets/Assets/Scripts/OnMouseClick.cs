@@ -21,7 +21,7 @@ public class OnMouseClick : MonoBehaviour {
 		
 	}
 	void OnMouseDown(){
-		FindObjectOfType<PaddleControl>().paddleSpeed = 50;
+		//FindObjectOfType<PaddleControl>().paddleSpeed = 50;
 		float startTime = Time.time;
 		Debug.Log ("Mouse click detected on Sword Sprite at time: "+ Time.time);
 		//SceneManager.LoadScene ("PongScreen2");
